@@ -3,14 +3,14 @@
 ## TikTok Video Claim and Opinion Classification
 
 ### Overview
-This project aims to classify claims and opinions in TikTok videos using various machine learning models. The dataset contains video information, including text content, metadata, and user interactions. Our goal is to develop a robust model that can accurately classify whether a video contains a claim or an opinion.
+This project aims to classify claims and opinions in TikTok videos using various machine learning models. Our goal is to develop a robust model that can accurately classify whether a video contains a claim or an opinion.
 
 ### Business Understanding
 Classifying claims and opinions in social media content, such as TikTok videos, is crucial for content moderation, misinformation detection, and understanding public sentiment. By accurately identifying claims, TikTok can take appropriate actions to verify the information, while understanding opinions helps in gauging public sentiment and trends.
 
 ### Data Understanding
 The dataset consists of video information from TikTok, with the following features:
-- **claim_status:** Indicates whether the video contains a claim (1: Yes, 0: No).
+- **claim_status:** Indicates whether the video contains a claim or opinion.
 - **video_id:** Unique identifier for the video.
 - **video_duration_sec:** Duration of the video in seconds.
 - **video_transcription_text:** Text content of the video.
